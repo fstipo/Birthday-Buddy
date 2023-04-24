@@ -258,7 +258,7 @@ ul {
 /* optional overwrite */
 
 body {
-  background: var(--primary-100);
+  background: var(--grey-500);
 }
 
 /* * {
@@ -283,6 +283,12 @@ main {
 }
 .container h3 {
   margin-bottom: 2rem;
+}
+.btn {
+  background: var(--grey-500);
+}
+.btn:hover {
+  background: var(--grey-900);
 }
 .person {
   display: grid;
